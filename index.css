@@ -1,0 +1,94 @@
+body {
+    color:black;
+    text-align: center;
+    background-image: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#top-bar {
+    display: flex;
+}
+
+#roster {
+    background-color: grey;
+    color: black;
+    height: fit-content;
+    width: 50%;
+    padding: .5%;
+    text-align: center;
+}
+
+#display-player {
+    color: black;
+    background-color: grey;
+    text-align: center;
+    height: fit-content;
+    width: 50%;
+    padding: .5%;
+}
+
+#cards {
+    border: 6px solid black;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    padding: 1%;
+}
+
+.player-card {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: auto;
+    background-color: grey;
+    padding: 5%;
+    margin: 5%;
+    height: 250px;
+}
+
+.name-breed {
+    font-size: large;
+    background-color: grey;
+    color: black;
+    width: auto;
+    padding: auto;
+    flex-grow: auto;
+    margin: auto;
+}
+
+#roster-list{
+    font-size: large;
+}
+
+.image {
+    padding: .5px;
+    align-self: auto;
+}
+
+.image img {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    border: 3px solid black;   
+    margin: auto;
+}
+
+#pup-selected-img {
+    width: 70%;
+    border: 5px solid black;   
+    margin: auto; 
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(204, 225, 15);
+    background-color: rgb(2, 2, 16);
+    border-radius: 20px;
+    padding: 1%;
+    font-size: large;
+}
+
+h3 {
+    color: black;
+}
